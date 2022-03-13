@@ -1,7 +1,7 @@
 const { Client, Intents, Collection, MessageEmbed } = require('discord.js');
 const fs = require('fs')
 const client = new Client({ intents: 32767, });
-client.login("NzA4MDE4NDM0OTU2NTkxMjA0.XrRPjQ._lmlOQYMKuJFs_95RkJZxuNds8M");
+client.login("token");
 const prefix = '.'
 
 client.commands = new Collection();
